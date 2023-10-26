@@ -1,0 +1,38 @@
+{
+  "owners": [],
+  "prefix": "ss",
+  "background_task": {
+    "task1": {
+      "enabled": true,
+      "channel": [],
+      "messages": ["ttg train QWERTYUIOP", "tcookie mint", "tfish", "tjp"],
+      "delay_per_message": 2,
+      "interval": 30
+    },
+    "task2": {
+      "enabled": true,
+      "channel": [],
+      "messages": [".hourly", ".bt all"],
+      "delay_per_message": 2,
+      "interval": 3600
+    },
+    "task3": {
+      "enabled": true,
+      "channel": [],
+      "messages": ["tdaily", "owodaily"],
+      "delay_per_message": 2,
+      "interval": 86400
+    },
+    "task4": {
+      "enabled": true,
+      "channel": [],
+      "messages": ["tquest claim"],
+      "delay_per_message": 2,
+      "interval": 54000
+    }
+  },
+  "channels": [],
+  "tokens": [
+    ""
+  ]
+}
